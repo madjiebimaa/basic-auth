@@ -1,0 +1,24 @@
+### Register User
+POST http://localhost:3000/api/register HTTP/1.1
+content-type: application/json
+
+{
+    "name": "testing",
+    "email": "testing@gmail.com",
+    "password": "testing"
+}
+
+### Login User
+POST http://localhost:3000/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "testing@gmail.com",
+    "password": "testing"
+}
+
+### Get Users
+GET http://localhost:3000/api/users HTTP/1.1
+
+### Logout User
+POST http://localhost:3000/api/logout HTTP/1.1
